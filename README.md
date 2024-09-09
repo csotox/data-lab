@@ -7,22 +7,34 @@
 
 ## Descripción del Proyecto
 
-El objetivo de este proyecto es proporcionar diferentes formatos con diferente configuración regional para realizar prácticas de análisis de datos y utilizar diferentes técnicas de ETL.
+Este proyecto tiene como objetivo proporcionar un conjunto de datos en diferentes formatos y con configuraciones regionales variadas, ideales para la práctica de **análisis de datos** y la implementación de diversas técnicas de **ETL** (Extracción, Transformación y Carga). Los datos están diseñados para simular escenarios reales de manejo de información financiera, permitiendo a los usuarios trabajar con formatos comunes en distintos contextos internacionales.
 
-Los datos de este laboratorio están orientado principalmente a estudiantes y docentes que buscan datos de ejemplos.
+### Público objetivo
+
+El laboratorio de datos está orientado principalmente a **estudiantes**, **docentes** y **profesionales** que buscan ejemplos prácticos para aprender y enseñar sobre:
+- Manipulación de datos en formatos diversos (Excel, JSON, Web).
+- Prácticas de **web scraping**.
+- Simulación de **APIs** para el consumo de datos.
+- Procesos de **ETL** utilizando diferentes configuraciones regionales.
+
+### Contenido del Proyecto
+
+Los archivos proporcionados contienen datos reales (como el valor del dólar en Chile) y están estructurados para facilitar la experimentación con diferentes herramientas de análisis de datos.
+
+### Formatos y configuraciones regionales
+
+El proyecto incluye datos en los siguientes formatos:
+- **Excel** con configuraciones regionales para **Chile** y **Estados Unidos** (formato de fecha, separadores de decimales, etc.).
+- **JSON** con simulaciones de una API REST, representando datos con diferentes estándares internacionales.
+- **HTML** para realizar prácticas de **web scraping**.
 
 ### Observaciones
 
-- Los archivos son generados de manera manual.
-- Frecuencia de actualización de los datos: cada viernes o sábado.
+- Los archivos se generan manualmente para mantener un control adecuado de los datos.
+- La **frecuencia de actualización** de los archivos es semanal, generalmente los días **viernes o sábado**.
+- Este laboratorio se mantendrá actualizado con nuevas configuraciones y formatos adicionales conforme las necesidades educativas evolucionen.
 
-### Contenido
-
-Puedes interactuar con los datos de tres maneras diferentes:
-
-- Interacción con **Página Web** para el uso de Web Scraping.
-- Descarga de archivos **Excel**.
-- Simulando llamadas a una **API REST** que devuelve archivos JSON (esta API REST es una simulación).
+---
 
 ### Estructura del Proyecto
 
@@ -43,80 +55,98 @@ dolar/
 ~~~
 
 ---
+## Guía de Uso
 
-## Guía de uso
+Esta guía te ayudará a interactuar con los diferentes recursos del proyecto, incluyendo páginas web para **web scraping**, la descarga de archivos **Excel** y la simulación de una **API REST** utilizando **JSON**.
 
-### URL para práctica de web scraping
+### URL para Práctica de Web Scraping
 
-Página Web con maquetación básica de HTML y un poco de CSS, ideal para realizar prácticas de iniciación al web scraping.
+He creado una página web con una tabla de datos básicos en HTML, diseñada para que los usuarios puedan practicar técnicas de **web scraping**. Esta página incluye una maquetación simple en **HTML** y **CSS**, ideal para quienes recién comienzan a trabajar con scraping de datos estructurados.
 
-- **v1**
-  - [Tabla en formato matriz para el año 2024](https://csotox.github.io/data-lab/dolar/chile/web/v1/2024/)
+- **Versión v1**:
+  - [Tabla en formato matriz para el año 2024 | https://csotox.github.io/data-lab/dolar/chile/web/v1/2024/](https://csotox.github.io/data-lab/dolar/chile/web/v1/2024/)
 
 ### Descarga de Archivos Excel
 
-Los archivos Excel contienen los valores observados del dólar generado por año y configuración regional. Estos archivos están disponibles para ser descargados desde la siguiente ruta:
+Los archivos Excel contienen los valores observados del dólar, organizados por año y configuraciones regionales para Chile y Estados Unidos. Estos archivos están diseñados para su descarga y posterior análisis en herramientas como Excel o Google Sheets.
 
-- **v1**
-  - [Listado de archivos de Excel](https://csotox.github.io/data-lab/dolar/chile/excel/v1)
+- **Listado de archivos de Excel (v1)**:
+  - [Descargar archivos Excel | https://csotox.github.io/data-lab/dolar/chile/excel/v1](https://csotox.github.io/data-lab/dolar/chile/excel/v1)
 
-- **Archivos generados**
-  - [2024-CL](https://csotox.github.io/data-lab/dolar/chile/excel/v1/cl/dolarCL_2024.xlsx)
-  - [2024-US](https://csotox.github.io/data-lab/dolar/chile/excel/v1/us/dolarUS_2024.xlsx)
+- **Archivos disponibles**:
+  - [Dólar Chile 2024 (CL) | https://csotox.github.io/data-lab/dolar/chile/excel/v1/cl/dolarCL_2024.xlsx](https://csotox.github.io/data-lab/dolar/chile/excel/v1/cl/dolarCL_2024.xlsx)
+  - [Dólar Estados Unidos 2024 (US) | https://csotox.github.io/data-lab/dolar/chile/excel/v1/us/dolarUS_2024.xlsx](https://csotox.github.io/data-lab/dolar/chile/excel/v1/us/dolarUS_2024.xlsx)
 
 ### Simulación de la API (JSON)
 
-Este proyecto esta alojado en **GitHub Page** por lo que no contamos con un BackEnd por lo tanto el comportamiento de la API es simulado. Esta simulación básicamente devuelve un **JSON** por cada petición GET a la URL correspondiente. Puedes realizar solicitudes a los siguientes endpoints para obtener los datos por año y configuración regional.
+Este proyecto está alojado en **GitHub Pages**, lo que significa que no contamos con un backend real para manejar solicitudes dinámicas. Sin embargo, hemos creado una simulación de **API REST** que devuelve archivos JSON estáticos cuando se realiza una petición GET a las URL correspondientes. Esto permite simular el consumo de datos desde una API para análisis o prácticas de desarrollo de software.
 
-- **v1**
-  - [Dólar Chile 2024 (CL)](https://csotox.github.io/data-lab/dolar/chile/api/v1/2024/cl/dolarCL_2024.json)
-  - [Dólar Chile 2024 (CL)](https://csotox.github.io/data-lab/dolar/chile/api/v1/2024/us/dolarUS_2024.json)
+Puedes acceder a los siguientes endpoints para obtener los datos de acuerdo con la configuración regional y el año:
 
-#### Ejemplo de consumo con `curl`
+- **Versión v1**:
+  - [Dólar Chile 2024 (CL) | https://csotox.github.io/data-lab/dolar/chile/api/v1/2024/cl/dolarCL_2024.json](https://csotox.github.io/data-lab/dolar/chile/api/v1/2024/cl/dolarCL_2024.json)
+  - [Dólar Estados Unidos 2024 (US) | https://csotox.github.io/data-lab/dolar/chile/api/v1/2024/us/dolarUS_2024.json](https://csotox.github.io/data-lab/dolar/chile/api/v1/2024/us/dolarUS_2024.json)
 
-Si deseas realizar una simulación de la API utilizando `curl`, puedes usar el siguiente comando para obtener los datos de Chile en 2024:
+#### Ejemplo de Consumo con `curl`
 
-~~~ bash
+Para realizar una simulación de una llamada a la API desde la terminal utilizando `curl`, puedes usar el siguiente comando. Este comando realiza una solicitud GET y devuelve el archivo JSON con los datos del dólar observado en Chile en el año 2024.
+
+~~~bash
 curl -X GET https://csotox.github.io/data-lab/dolar/chile/api/v1/2024/cl/dolarCL_2024.json
 ~~~
+
+Puedes modificar este comando para obtener los datos de otros años simplemente cambiando la URL correspondiente.
 
 ---
 
 ## Licencia
 
-Este proyecto está licenciado bajo la licencia **MIT**. Puedes utilizar, modificar y distribuir el código libremente, pero se requiere atribución al autor original.
+Este proyecto está licenciado bajo la licencia **MIT**, lo que significa que puedes utilizar, modificar y distribuir el código de manera libre, siempre y cuando se reconozca la autoría original. Esto fomenta la reutilización y adaptación del proyecto para otros contextos, asegurando que se respeten los créditos.
 
-Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Para más detalles sobre los términos de la licencia, consulta el archivo [LICENSE](./LICENSE).
 
 ---
 
 ## Contacto
 
-Si tienes alguna pregunta, comentario o sugerencia sobre este proyecto, no dudes en ponerte en contacto conmigo:
+Si tienes preguntas, comentarios, sugerencias o deseas contribuir al proyecto, no dudes en ponerte en contacto conmigo a través de los siguientes medios:
 
 - **Autor**: Carlos Rafael Soto
-- **Email**: algo@algo.com
-- **LinkedIn**: [Perfil](https://www.linkedin.com/in/csotox/)
-- **YouTube**: [Canal personal](https://www.youtube.com/@CSotoX)
+- **Email**: [algo@algo.com](mailto:algo@algo.com)
+- **LinkedIn**: [Carlos Rafael Soto](https://www.linkedin.com/in/csotox/)
+- **YouTube**: [Canal de YouTube](https://www.youtube.com/@CSotoX)
+
+Tu retroalimentación es bienvenida y valorada, y será un gusto responder tus dudas o discutir posibles mejoras.
 
 ---
 
 ## Fuente de datos
 
-Los datos son tomados desde la página del [Banco Central de Chile](https://si3.bcentral.cl/Indicadoressiete/secure/Indicadoresdiarios.aspx)
+Los datos utilizados en este proyecto provienen de fuentes confiables y verificables. Principalmente, se extraen del [Banco Central de Chile](https://si3.bcentral.cl/Indicadoressiete/secure/Indicadoresdiarios.aspx), que proporciona información financiera oficial y precisa sobre el valor del dólar y otros indicadores económicos.
+
+Es importante tener en cuenta que los datos han sido adaptados para fines educativos y de simulación, por lo que podrían no estar actualizados en tiempo real.
 
 ---
 
 ## Roadmap
 
+Este proyecto está en constante evolución. Aquí presentamos algunas de las mejoras planificadas para el futuro:
+
 ### Futuras mejoras:
-- Salida a producción.
-- Añadir más años de datos históricos sobre el valor del dólar.
-- Crear automatización que mejore la frecuencia de actualización de los datos.
+- **Salida a producción**: Preparar el proyecto para ser usado en entornos educativos de análisis de datos.
+- **Datos históricos**: Añadir más años de datos históricos sobre el valor del dólar para aumentar la profundidad del análisis.
+- **Automatización**: Implementar automatización para mejorar la frecuencia y precisión de la actualización de los datos, permitiendo que estos se sincronicen de manera automática semanalmente.
+- **Nuevo DataSet de Supermercado**: Crear un conjunto de datos simulado para reflejar las ventas diarias de un supermercado, diseñado específicamente para la práctica de **algoritmos de análisis descriptivo** y **análisis predictivo**. Una de las características del dataset sera su actualización diariamente con nuevos datos, lo que permite trabajar con modelos dinámicos que evolucionan con el tiempo y simular escenarios de ventas y tendencias.
 
-Si tienes alguna sugerencia de mejora o funcionalidad, no dudes en abrir un **_issue_**.
 
+Si tienes alguna idea o sugerencia para mejorar el proyecto, no dudes en abrir un **issue** en el repositorio. Estamos abiertos a colaboraciones que hagan crecer el proyecto.
 
-### Bitacora
+---
 
-- **2024-09-08**: Prueba de concepto
+## Bitácora
+
+A continuación se registra el progreso y los hitos alcanzados durante el desarrollo del proyecto:
+
+- **2024-09-08**: Prueba de concepto inicial lanzada, implementando la simulación de datos del dólar en Chile.
+
+Mantendremos esta sección actualizada para reflejar los avances y cambios significativos en el proyecto.
