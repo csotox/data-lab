@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1;url=dolarUS_2023.json">
+    <title>Descargando archivo JSON - Simulando una API</title>
+    <script>
+        window.onload = function() {
+            const link = document.createElement('a');
+            link.href = 'dolarUS_2023.json';
+            link.download = 'dolarUS_2023.json';
+            link.click();
+        };
+    </script>
+</head>
+<body>
+    <p>Descargando el archivo JSON automáticamente...</p>
+    <p>Si la descarga no comienza automáticamente, <a href="dolarUS_2023.json">haz clic aquí</a>.</p>
+</body>
+</html>

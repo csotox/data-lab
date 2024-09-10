@@ -147,6 +147,7 @@ Si tienes alguna idea o sugerencia para mejorar el proyecto, no dudes en abrir u
 
 A continuación se registra el progreso y los hitos alcanzados durante el desarrollo del proyecto:
 
+- **2024-09-10**: Se agregaron los años 2020, 2021 y 2022. Se actualizo el año 2024 para el dólar en Chile.
 - **2024-09-08**: Prueba de concepto inicial lanzada, implementando la simulación de datos del dólar en Chile.
 
 Mantendremos esta sección actualizada para reflejar los avances y cambios significativos en el proyecto.

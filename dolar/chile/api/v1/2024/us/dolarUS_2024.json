@@ -698,12 +698,21 @@
         {
             "fecha": "09-09-2024",
             "valor": "943.18"
+        },
+        {
+            "fecha": "09-10-2024",
+            "valor": "946.22"
+        },
+        {
+            "fecha": "09-11-2024",
+            "valor": "948.85"
         }
     ],
     "metadata": {
-        "total_registros": 174,
+        "total_registros": 176,
         "by": "Carlos Rafael Soto",
         "source": "Banco Central de Chile",
-        "generated_at": "2024-09-08T22:27:35Z"
+        "locate": "US",
+        "generated_at": "2024-09-10T21:15:11Z"
     }
 }
