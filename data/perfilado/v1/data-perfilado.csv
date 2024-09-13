@@ -1,0 +1,21 @@
+ID,Nombre,Apellido,FechaNacimiento,Email ,Salario,Departamento, FechaIngreso,CodigoEmpleado,Estado
+1,Ana,Pérez,1990-05-21,ana@mail.com,3000,Ventas,2015-06-15,EMP001,Activo
+2,Carlos,Gómez,1985-08-13,carlos.com,4500,IT,2012-02-20,EMP002,Activo
+3,Maria,,1992-03-08,maria@mail.com,3500,Marketing,2014-11-01,,Activo
+4,Juan,Rodríguez,1980-12-11,juan@mail.com,,Finanzas,2011-03-10,EMP004,Inactivo
+5,Ana,Pérez,1990-05-21,ana.perez@mail.com,3000,Ventas,2015-06-15,EMP001,Activo
+6,Elena,Ramírez,N/A,elena@mail,-500,IT,2016-09-22,EMP006,Activo
+7,Miguel,Fernández,1995-02-10,miguel.fernandez@mail.com,4200,IT,,EMP007,Activo
+8,Laura,González,1992-07-21,laura.gonzalez@mail.com,3800,Marketing,2013-08-09,EMP008,Activo
+9,,Martínez,1989-03-05,martinez@mail.com,0,Finanzas,2010-12-01,EMP009,Activo
+10,Pedro,Ramírez,1991-10-11,pedro.ramirez@mail.com,5000,,2017-07-01,EMP010,Activo
+11,Lucía,Naranjo,1993-06-30,lucia@mail.com,,Marketing,2014-02-10,EMP011,Inactivo
+12,Andrés,Silva,1988-04-22,andres.silva.mail.com,3900,Ventas,2015-11-12,EMP012,Activo
+13,Pablo,Castro,1975-11-30,pablo.castro@mail.com,6000,Finanzas,2005-05-05,EMP013,Activo
+14,Elena,Ramírez,1996-09-10,elena@mail.com,500,IT,2016-09-22,EMP006,Activo
+15,Carlos,Gómez,1985-08-13,carlos.gomez@mail.com,4500,IT,2012-02-20,EMP002,Activo
+16,,Gómez,1990-05-21,gomez@mail.com,3100,Ventas,2011-04-15,EMP016,Activo
+17,Patricia,Jiménez,,patricia.jimenez.com,4100,IT,2014-10-25,EMP017,Activo
+18,Alberto,Ramírez,1993-11-19,alberto.ramirez@mail,3700,Finanzas,2012-06-18,EMP018,Inactivo
+19,Ana,Pérez,1990-05-21,ana@mail.com,3000,Ventas,2015-06-15,EMP001,Activo
+20,Miguel,Fernández,1995-02-10,miguel.fernandez@mail.com,4200,IT,2016-01-10,EMP007,Activo
