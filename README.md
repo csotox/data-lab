@@ -44,6 +44,7 @@ data-lab/
   data/
     calidad-data/
       v1/ (Archivo CSV para practicar diferentes técnicas de análisis de calidad de data)
+    etl/
   dolar/
     chile/
       api/v1/2024/
@@ -183,6 +184,7 @@ Si tienes alguna idea o sugerencia para mejorar el proyecto, no dudes en abrir u
 
 A continuación se registra el progreso y los hitos alcanzados durante el desarrollo del proyecto:
 
+- **2024-09-24**: Agregado el archivo **etl/VentasCjile.csv** estructura básica para explicar conceptos básicos de ETL.
 - **2024-09-13**: Salida a **PRODUCCIÓN** las estructuras creadas hasta el momento no serán modificadas.
 - **2024-09-12**: Se agregó DataSet para escenario de calidad de datos.
 - **2024-09-10**: Se agregaron los años 2020, 2021 y 2022. Se actualizó el año 2024 para el dólar en Chile.
